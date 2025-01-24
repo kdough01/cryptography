@@ -1,4 +1,6 @@
 #Congruential Key
+import numpy as np
+import math
 
 def congruential_key_creation(q,f,g):
     if (f < np.sqrt(q/2)) and (np.sqrt(q/4) < g < np.sqrt(q/2)) and (math.gcd(f,q*g) == 1):

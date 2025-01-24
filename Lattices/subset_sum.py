@@ -1,4 +1,6 @@
 #Subset Sum
+import numpy as np
+import math
 
 def subset_sum_key_creation(r,A,B):
 
